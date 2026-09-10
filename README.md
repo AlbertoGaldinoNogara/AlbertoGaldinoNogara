@@ -1,8 +1,24 @@
-# Hello there 🫡
-I'm Alberto and I am a student of the MSc in Data Science at Università Cattolica in Milan. 
-My interests span from data science related subjects like AI & ML to philospy, history and arts.
-Here You can find the projects on which I've worked on:
-  - [NER Project](https://github.com/MicheleGiambelli/PlotTwisters-Project): Named Entity Recognition task.
-  - [Image Classification](https://github.com/RecurSieve/Image-Classification/tree/main): Image Classification task using a custom CNN.
-  - [Statistical Analysis](https://github.com/RecurSieve/Statistical-analysis-of-Boston-house-pricing): Statistical analyisis of Boston house pricing.
-  - [Bayesian Analysis](https://github.com/RecurSieve/Bayesian-Analysis-of-Leukemia-Subtypes/tree/main): Integration of Multivariate Normal and Hierarchical models in order to perform a Bayesian analysis of Leukemia subtypes. 
+## Alberto Galdino Nogara
+
+MSc student in **Data Analytics for Business** at Università Cattolica, Milan.
+Currently writing my thesis on **Neural Controlled Differential Equations** for
+irregularly sampled financial time series.
+
+Mostly R and Python. I care more about whether a result survives its own
+uncertainty than about how many models were tried.
+
+### Selected projects
+
+| Project | What it found |
+|---|---|
+| [Association networks on S&P 500 returns](https://github.com/AlbertoGaldinoNogara/sp500-association-networks) | Correlation + FDR control keeps **96% of all possible edges** under market stress. The "network reorganises in a crisis" story is an artefact of the common market factor — once it is removed, the sector signal is unchanged (1.27 vs 1.29 sd) and a block bootstrap puts zero inside every calm-vs-stress interval. |
+| [Butterfly image classification](https://github.com/AlbertoGaldinoNogara/Image-Classification) | An inception-style CNN trained from scratch on 1,816 images across 11 classes. Data augmentation **hurt**: 91.8% test accuracy without it, 83.8% with it — a useful reminder that augmentation is a hypothesis about invariances, not a free win. |
+| [Bayesian analysis of leukemia subtypes](https://github.com/AlbertoGaldinoNogara/Bayesian-Analysis-of-Leukemia-Subtypes) | A hand-written Gibbs sampler for a hierarchical multivariate normal model over 18 protein markers. Posterior means of AKT and BAD do not separate the four FAB subtypes; shrinkage towards the population mean accounts for most of what is visible. |
+| [Linear models on Boston housing](https://github.com/AlbertoGaldinoNogara/Statistical-analysis-of-Boston-house-pricing) | AIC, BIC, Mallow's Cp, adjusted R² and LOOCV all select the same 11-predictor model — which ANOVA then finds statistically indistinguishable from the full one. Selection bought interpretability, not accuracy. |
+| [Named entity recognition](https://github.com/MicheleGiambelli/PlotTwisters-Project) | Team NER project (contributor). |
+
+### Interests
+
+Statistical inference, network data, neural differential equations, and the
+places where a modelling choice quietly decides the answer before the data get a
+vote.
