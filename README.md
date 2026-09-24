@@ -1,7 +1,7 @@
 ## Alberto Galdino Nogara
 
 MSc student in **Data Analytics for Business** at Università Cattolica, Milan.
-Currently writing my thesis on **Neural Controlled Differential Equations** for
+Currently writing my thesis on **Neural Differential Equations** for
 irregularly sampled financial time series.
 
 Mostly R and Python. I care more about whether a result survives its own
